@@ -1,20 +1,20 @@
-// stdafx.h : 标准系统包含文件的包含文件，
-// 或是经常使用但不常更改的
-// 特定于项目的包含文件
+// stdafx.h : 锟斤拷准系统锟斤拷锟斤拷锟侥硷拷锟侥帮拷锟斤拷锟侥硷拷锟斤拷
+// 锟斤拷锟角撅拷锟斤拷使锟矫碉拷锟斤拷锟斤拷锟斤拷锟侥碉拷
+// 锟截讹拷锟斤拷锟斤拷目锟侥帮拷锟斤拷锟侥硷拷
 //
 
 #pragma once
 
 #ifdef _WIN32
-#define WIN32_LEAN_AND_MEAN             // 从 Windows 头中排除极少使用的资料
-// Windows 头文件: 
+#define WIN32_LEAN_AND_MEAN // 锟斤拷 Windows 头锟斤拷锟脚筹拷锟斤拷锟斤拷使锟矫碉拷锟斤拷锟斤拷
+// Windows 头锟侥硷拷:
 #include <windows.h>
 #endif
 #include <iostream>
 #include <time.h>
 #include <stdio.h>
 #include <string>
-#include <fstream>  
+#include <fstream>
 #include <sstream>
 #include <vector>
 #include <cmath>
@@ -31,5 +31,5 @@
 #include <cstddef>
 #include <algorithm>
 #include <numeric>
-#include <memory.h> 
+#include <memory.h>
 using namespace std;

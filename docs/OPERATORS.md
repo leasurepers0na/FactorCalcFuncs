@@ -2,7 +2,7 @@
 
 本文件由源码自动生成，列出库中全部算子及其用途。
 
-算子类共 **31** 个。
+算子类共 **35** 个。
 
 ## Rolling 算子
 
@@ -36,6 +36,10 @@
 | `CumStdData` | 累计标准差内部状态 | 保存累计一阶矩与二阶矩。 |
 | `CumStdHelper` | 累计标准差 | 从起点到当前的标准差。 |
 | `RollingEmaHelper` | 指数滑动平均 (EMA) | 按 alpha 递推平滑，等价于无穷窗口的加权平均。 |
+| `RollingSortedData` | — | — |
+| `RollingMedianHelper` | — | — |
+| `RollingSortedHelper` | — | — |
+| `RollingRankHelper` | 滑动分位排名 | 返回当前值在窗口内的分位（0~1），对异常值不敏感。 |
 | `CommonFuncs` | 通用函数集合 | 数值工具：isnan、截断、安全除法、log/sqrt、归一化等静态函数。 |
 | `RollingTruncStdData` | 截断标准差内部状态 | 保存截断后的一阶矩与二阶矩。 |
 | `RollingTruncStdHelper` | 截断滑动标准差 | 先按分位数截断极值再求标准差，用于抑制异常值影响。 |
