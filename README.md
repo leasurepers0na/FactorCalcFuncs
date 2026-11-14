@@ -13,14 +13,12 @@ FactorCalcFuncs/
 ├── CMakeLists.txt          构建脚本（生成 libFactorCalcFuncs.so）
 ├── include/                对外头文件
 │   ├── Factor_Dll.h        全部算子类（Rolling* / Cum* / CommonFuncs）
-│   ├── Zugzw4ngFuncs.h     通用函数声明
 │   ├── FactorParamDef.h    平台与因子之间的 ABI 结构体
 │   ├── DLL_PRE_DEFINE.h    导出宏
 │   ├── queue_ex.hpp        轻量队列
 │   └── stdafx.h
 ├── src/
 │   ├── Factor_Dll.cpp      算子实现
-│   └── Zugzw4ngFuncs.cpp   通用函数实现
 ├── docs/
 │   └── OPERATORS.md        算子清单（由源码生成）
 └── dist/                   构建产物（不入库）
